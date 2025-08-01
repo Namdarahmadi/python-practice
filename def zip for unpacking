@@ -1,0 +1,7 @@
+students = ["Ali", "Sara", "Reza"]
+math_scores = [18, 20, 17]
+english_scores = [15, 19, 16]
+
+
+for stud , math , english in zip(students, math_scores, english_scores):
+    print(f" the student {stud} math score is : {math} and english score is : {english}")
