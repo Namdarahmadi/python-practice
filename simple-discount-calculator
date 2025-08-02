@@ -1,0 +1,10 @@
+number  =int(input("Enter first number:"))
+
+
+if number < 20000:
+    var=number
+elif number>50000 :
+    var = number - (number * 0.2)
+else :
+    var = number - (number * 0.1)
+print(var)
